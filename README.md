@@ -1,12 +1,55 @@
-# React + Vite
+# React Router Practice Project  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project built while learning **React Router DOM**.  
+This project includes navigation, a footer with links, and GitHub API integration to display dynamic profile data.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
 
-## Expanding the ESLint configuration
+- 🔗 **Routing with React Router DOM**  
+- 🎨 **Responsive UI** styled with Tailwind CSS  
+- 📊 **GitHub API Integration** → displays username, followers, following  
+- ⚡ Modular React components (Navbar, Footer, etc.)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack  
+
+- **React.js**  
+- **React Router DOM**  
+- **Tailwind CSS**  
+- **GitHub REST API**  
+
+---
+
+## 📂 Project Structure  
+
+src/
+├── assets/ # Images, icons, etc.
+├── components/
+│ ├── About/
+│ │ └── About.jsx
+│ ├── Contact/
+│ │ └── Contact.jsx
+│ ├── Footer/
+│ │ └── Footer.jsx
+│ ├── Github/
+│ │ └── Github.jsx
+│ ├── Header/
+│ │ └── Header.jsx
+│ ├── Home/
+│ │ └── Home.jsx
+│ └── User/
+│ └── User.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+---
+
+## ⚙️ Installation  
+
+1. Clone the repo  
+   
+   git clone (https://github.com/AyushKumar2555/react-router-practice.git)
+   cd react-router-github
